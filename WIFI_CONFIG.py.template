@@ -1,0 +1,18 @@
+# WiFi Configuration Template
+# Copy this file to WIFI_CONFIG.py and edit with your details
+
+# Your WiFi network name
+SSID = "YOUR_WIFI_NETWORK_NAME"
+
+# Your WiFi password
+PSK = "YOUR_WIFI_PASSWORD"
+
+# Your country code (for regulatory compliance)
+# Common codes: US, GB, DE, FR, JP, AU, CA
+COUNTRY = "US"
+
+# Optional: Static IP configuration (uncomment if needed)
+# STATIC_IP = "192.168.1.100"
+# STATIC_SUBNET = "255.255.255.0" 
+# STATIC_GATEWAY = "192.168.1.1"
+# STATIC_DNS = "8.8.8.8"

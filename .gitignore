@@ -1,5 +1,6 @@
-# Ignore WiFi credentials
+# Ignore WiFi credentials (but keep template)
 WIFI_CONFIG.py
+!WIFI_CONFIG.py.template
 
 # Python
 __pycache__/
