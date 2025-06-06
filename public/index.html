@@ -63,22 +63,22 @@
 
     <h2>📡 Available Endpoints</h2>
     <div class="api-list">
-        <a href="/api/badge_simple.txt">📄 /api/badge_simple.txt</a>
+        <a href="./api/badge_simple.txt">📄 ./api/badge_simple.txt</a>
         <em>Simple text format for basic displays</em>
         
-        <a href="/api/badge_compact.json">📦 /api/badge_compact.json</a>
+        <a href="./api/badge_compact.json">📦 ./api/badge_compact.json</a>
         <em>Compact JSON with essential badge data</em>
         
-        <a href="/api/badge_full.json">📋 /api/badge_full.json</a>
+        <a href="./api/badge_full.json">📋 ./api/badge_full.json</a>
         <em>Complete JSON with all profile information</em>
         
-        <a href="/api/profile.json">👤 /api/profile.json</a>
+        <a href="./api/profile.json">👤 ./api/profile.json</a>
         <em>GitHub profile information</em>
         
-        <a href="/api/stats.json">📊 /api/stats.json</a>
+        <a href="./api/stats.json">📊 ./api/stats.json</a>
         <em>Repository and contribution statistics</em>
         
-        <a href="/api/activity.json">⚡ /api/activity.json</a>
+        <a href="./api/activity.json">⚡ ./api/activity.json</a>
         <em>Recent GitHub activity</em>
     </div>
 
@@ -109,7 +109,7 @@ data = response.json()</code></pre>
 
     <script>
         // Show last update time
-        fetch('/api/badge_compact.json')
+        fetch('./api/badge_compact.json')
             .then(response => response.json())
             .then(data => {
                 if (data.updated_at) {
