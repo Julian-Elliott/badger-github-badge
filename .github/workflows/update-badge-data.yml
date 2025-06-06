@@ -36,16 +36,11 @@ jobs:
         USERNAME: ${{ github.repository_owner }}
       run: python scripts/generate_badge_data.py
       
-    - name: Generate badge images
-      env:
-        USERNAME: ${{ github.repository_owner }}
-      run: python scripts/generate_badge_images.py
-      
     - name: Commit and push if changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/ images/
+        git add public/api/
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
