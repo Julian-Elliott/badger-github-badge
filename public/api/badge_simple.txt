@@ -6,5 +6,5 @@ Julian Elliott
 0
 0
 Python
-badger-github-badge
-2025-06-10T06:19:04.888457Z
+solar-monitor
+2025-06-10T12:26:27.007493Z
