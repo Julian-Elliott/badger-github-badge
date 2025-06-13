@@ -1,10 +1,10 @@
 Julian-Elliott
 Julian Elliott
-9
-5
+10
+8
 22
 0
 0
-Python
-badger-github-badge
-2025-06-13T06:19:18.780860Z
+Jupyter Notebook
+retail-sales-analysis
+2025-06-13T12:25:33.674081Z
